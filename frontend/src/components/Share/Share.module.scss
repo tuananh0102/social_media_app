@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  border-radius: 3px;
+  margin-top: 10px;
+  box-shadow: 2px 1px 29px 2px rgba(128, 128, 128, 0.54);
+  -webkit-box-shadow: 2px 1px 29px 2px rgba(128, 128, 128, 0.54);
+  -moz-box-shadow: 2px 1px 29px 2px rgba(128, 128, 128, 0.54);
+}
+.share-top {
+  display: flex;
+  padding: 10px;
+}
+
+.person-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.share-input {
+  border: none;
+  margin-left: 20px;
+  width: 90%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.share-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-image {
+  width: 95%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.line {
+  margin: 20px;
+  border: solid 1.5px rgb(225, 222, 222);
+}
+
+.share-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option-name {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.share-btn {
+  border: none;
+  border-radius: 7px;
+  padding: 7px;
+  cursor: pointer;
+  color: white;
+  background-color: green;
+  font-weight: 500;
+}
+
+.pointer {
+  cursor: pointer;
+}

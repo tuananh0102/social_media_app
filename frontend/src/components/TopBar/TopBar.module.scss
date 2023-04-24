@@ -1,0 +1,63 @@
+.container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #1877f2;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.topbar-left {
+  flex: 3;
+}
+
+.topbar-center {
+  flex: 5;
+  width: 100%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.topbar-right {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar-links {
+  color: white;
+}
+.link {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.topbar-icons {
+  display: flex;
+}
+
+.topbar-icon-item {
+  margin: 0 5px;
+  color: #fff;
+  position: relative;
+}
+
+.topbar-icon-badge {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+  top: -8px;
+  left: 15px;
+  padding: 0 2px;
+}

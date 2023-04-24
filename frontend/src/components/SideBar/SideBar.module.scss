@@ -1,0 +1,47 @@
+.container {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+.sidebar-wrapper {
+  margin-left: 15px;
+}
+
+.option {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.option-name {
+  margin: 0 10px;
+}
+
+.showmore {
+  padding: 10px 40px;
+  font-weight: 400;
+  font-size: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.line {
+  margin: 20px 5px;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}

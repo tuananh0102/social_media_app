@@ -1,0 +1,76 @@
+.container {
+  flex: 3.5;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.birthday-container {
+  display: flex;
+  align-items: center;
+}
+
+.gift-img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.ad-container {
+  margin: 20px 0;
+}
+
+.ad-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.detail-info {
+  margin: 10px 0;
+}
+
+.label {
+  font-weight: 400;
+  // font-size: ;
+}
+
+.info {
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.wrapper-friends {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.title {
+  margin: 10px 0;
+}
+
+.friends {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friend {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.name {
+  margin: 5px auto;
+}

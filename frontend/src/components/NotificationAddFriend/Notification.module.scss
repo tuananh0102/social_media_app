@@ -1,0 +1,62 @@
+.topbar-icon-item {
+  margin: 0 5px;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.topbar-icon-badge {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+  top: -8px;
+  left: 15px;
+  padding: 0 2px;
+}
+
+.expand-request-addfriend {
+  background-color: #fff;
+  outline: none;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 2px 1px 29px 2px rgba(128, 128, 128, 0.54);
+  -webkit-box-shadow: 2px 1px 29px 2px rgba(128, 128, 128, 0.54);
+  -moz-box-shadow: 2px 1px 29px 2px rgba(128, 128, 128, 0.54);
+}
+
+.title {
+  margin: 10px;
+}
+
+.request {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.icons {
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+.yes {
+  color: greenyellow;
+  cursor: pointer;
+}
+
+.no {
+  color: gray;
+  cursor: pointer;
+}

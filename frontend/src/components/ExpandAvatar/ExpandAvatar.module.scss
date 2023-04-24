@@ -1,0 +1,41 @@
+.wrapper-options {
+  width: 150px;
+  //   padding: 10px;
+  height: fit-content;
+  background-color: white;
+  outline: none;
+  border-radius: 10px;
+
+  box-shadow: -2px 3px 8px -1px rgba(214, 214, 214, 0.75);
+  -webkit-box-shadow: -2px 3px 8px -1px rgba(214, 214, 214, 0.75);
+  -moz-box-shadow: -2px 3px 8px -1px rgba(214, 214, 214, 0.75);
+}
+
+.topbar-img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.option {
+  //   width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  color: black;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(68, 73, 80, 0.15);
+  }
+}
+
+.name-option {
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
